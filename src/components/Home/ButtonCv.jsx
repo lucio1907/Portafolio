@@ -1,6 +1,6 @@
 import { CVButtonContainer, Span } from "./stylesHome"
 import stylesButton from './style/buttoncv.module.css'
-import CV from '../../img/CV.pdf'
+import CV from '../../img/Cv.pdf'
 
 const ButtonCv = () => {
   return (
