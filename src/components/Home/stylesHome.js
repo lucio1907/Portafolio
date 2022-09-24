@@ -143,5 +143,50 @@ export const CVButtonContainer = styled.div`
     align-items: center;
     padding: 20px;
     position: relative;
-    top: 74vh;
+    bottom: 8vh;
+`
+
+export const ContainerPhoto = styled.div` 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+    animation: effect1 3s ease;
+    
+    @keyframes effect1 {
+        from {
+            top: -90vh;
+        } 
+        to {
+            top: 10vh;
+        }
+    }
+
+    @media (min-width: 768px) {
+        top: 8vh;
+
+        @keyframes effect1 {
+            from {
+                top: -90vh;
+            } 
+            to {
+                top: 8vh;
+            }
+        }
+    }
+`
+
+export const MyPhoto = styled.img`
+    width: 140px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid #131330;
+    box-shadow: 0px 0px 50px 0 #131313;
+
+    @media (min-width: 768px) {
+        width: 240px;
+        height: 250px;
+    }
 `
